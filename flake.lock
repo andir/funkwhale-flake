@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "funkwhale": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1627930070,
+        "narHash": "sha256-WK6qic5UHJpdp656cZwPjMNcW8qQhYsf2ReH3OJOpTI=",
+        "ref": "stable",
+        "rev": "3c8c15246010cfe77707b80e4519bbaa83a7fd7f",
+        "revCount": 4289,
+        "type": "git",
+        "url": "https://dev.funkwhale.audio/funkwhale/funkwhale.git"
+      },
+      "original": {
+        "ref": "stable",
+        "type": "git",
+        "url": "https://dev.funkwhale.audio/funkwhale/funkwhale.git"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1640418986,
+        "narHash": "sha256-a8GGtxn2iL3WAkY5H+4E0s3Q7XJt6bTOvos9qqxT5OQ=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "5c37ad87222cfc1ec36d6cd1364514a9efc2f7f2",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "npmlock2nix": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1608177994,
+        "narHash": "sha256-Frq8FW+8TN/PcCXiJoV/hY2z2nosjKk8MwWdBDVccQ8=",
+        "owner": "andir",
+        "repo": "npmlock2nix",
+        "rev": "4677fff221c8d21c07f2f8fa230f24a83f1a58e3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "andir",
+        "ref": "parse-yarn-lock",
+        "repo": "npmlock2nix",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "funkwhale": "funkwhale",
+        "nixpkgs": "nixpkgs",
+        "npmlock2nix": "npmlock2nix"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
